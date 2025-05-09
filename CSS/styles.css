@@ -1,0 +1,77 @@
+/*
+    Author: Daniel Avalos
+    Date: 07/21/2024
+    File Name: styles.css
+*/
+
+/* Header & Nav CSS Rules */
+
+header {
+    display: block;
+    height: 200px;
+    width: 100%;
+    border: black solid 1px;
+    background-color: rgb(240, 56, 53);
+}
+
+header img {
+    display: block;
+    background-color: white;
+    margin: 2% auto;
+    width: 45%;
+    height: 150px;
+    border: black solid 1px;
+}
+
+/* Form CSS Rules */
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+form {
+    display: block;
+    text-align: center;
+    margin: 50px auto;
+    width: 25%;
+    border: black 1px solid;
+}
+
+label {
+    margin: 3% auto;
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 1% auto;
+}
+
+/* About You Div Result CSS Rules */
+
+#Results {
+    text-align: center;
+    border: 1px black solid;
+    background-color: aqua;
+    width: 45%;
+    margin: 50px auto;
+}
+
+/* Footer CSS Rules */
+
+footer {
+    display: block;
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+footer p {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 1.2em;
+    margin-left: 6%;
+}
