@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+            Author: Daniel Avalos
+            Date: 07/21/2024
+            File Name: index.html
+        -->
+        <title>Personality Form</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <script src="Script/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>DAN.AVA.DEV</h1>
+        </header>
+        <main>
+            <h1>About Yourself Survey Form</h1>
+            <form>
+                <h2>Hello There! Would you please tell me more about yourself!</h2>
+
+                <label for="userGen">Your Gender:</label>
+                <select id="userGen">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select><br>
+
+                <label for="fullName">Your Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Full Name">
+
+                <label for="userAge">Your Age:</label>
+                <input type="text" id="userAge" name="userAge" placeholder="Your Age">
+
+                <label for="favFood">Your Favorite Food:</label>
+                <input type="text" id="favFood" name="favFood" placeholder="Favorite Food">
+
+                <label for="favMovie">Your Favorite Movie:</label>
+                <input type="text" id="favMovie" name="favMovie" placeholder="Favorite Movie">
+
+                <label for="favSport">Your Favorite Sport:</label>
+                <input type="text" id="favSport" name="favSport" placeholder="Favorite Sport">
+
+                <p id="hobbyList">Your Top 3 Hobbies</p>
+
+                <label for="hobbyOne">Hobby 1:</label>
+                <input type="text" id="hobbyOne" name="hobbyOne" placeholder="Hobby 1">
+
+                <label for="hobbyTwo">Hobby 2:</label>
+                <input type="text" id="hobbyTwo" name="hobbyTwo" placeholder="Hobby 2">
+
+                <label for="hobbyThree">Hobby 3:</label>
+                <input type="text" id="hobbyThree" name="hobbyThree" placeholder="Hobby 3"><br>
+
+                <button type="button" id="outputYeah" onclick="calculateYou()">Click Here!!!</button>
+                <br>
+            </form>
+
+            <div id="Results">
+                <h2>About You.</h2>
+                <p id="theResult"></p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Copyright 2025 DAN.AVA.DEV. All Rights Reserved.</p>
+            <p>
+                <a href="www.linkedin.com/in/2trh262561b06sgd78"><img alt="LinkedIn logo" src="images/LinkedIn-logo.png"></a>
+                <a href="https://github.com/DA-Prime"><img alt="GitHub logo" src="images/GitHub-logo.png"></a>
+            </p>
+        </footer>
+    </body>
+</html>
